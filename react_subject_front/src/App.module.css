@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   margin: 0;
 }
@@ -7,4 +11,129 @@ body {
 .header > h1 {
   margin: 0;
   text-align: center;
+  color: #60a5fa;
+}
+.wrap {
+  width: 1000px;
+  margin: 32px auto;
+}
+.option {
+  display: flex;
+  justify-content: space-between;
+}
+.search_wrap {
+  display: flex;
+  justify-content: start;
+}
+.select {
+  padding: 12px 10px;
+  appearance: none;
+  outline: none;
+  border-radius: 4px;
+}
+.level {
+  width: 68px;
+}
+
+.input {
+  margin-left: 8px;
+  padding: 12px 10px;
+  border-radius: 8px;
+  border: 1px solid #b7b7b7;
+  outline: none;
+}
+.input:focus {
+  border: 1px solid #60a5fa;
+  box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.3);
+}
+.div {
+  flex-grow: 1;
+}
+.order_wrap > .div {
+  cursor: auto;
+  border: none;
+}
+.btn {
+  padding: 9px 12px;
+  height: 100%;
+  margin-left: 8px;
+  cursor: pointer;
+  border: none;
+  background-color: #60a5fa;
+  color: #ffffff;
+  border-radius: 8px;
+}
+.subject_list_wrap {
+  margin-top: 24px;
+}
+.nav {
+  background-color: #60a5fa;
+  color: #ffffff;
+}
+.order_wrap {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+.order_wrap > div {
+  padding: 12px 10px;
+  border: 1px solid #e2e8f0;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.order_wrap > div.active {
+  background-color: #60a5fa;
+  color: #ffffff;
+}
+
+.ul {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  list-style-type: none;
+  width: 100%;
+  border-top: 1px solid #e2e8f0;
+  border-right: 1px solid #e2e8f0;
+}
+.ul > li {
+  text-align: center;
+  padding: 12px 8px;
+  border-left: 1px solid #e2e8f0;
+}
+.ul:last-child {
+  border-bottom: 1px solid #e2e8f0;
+}
+.no_li {
+  width: 10%;
+}
+.title_li {
+  width: 40%;
+}
+.instructor_li {
+  width: 10%;
+}
+.category_li {
+  width: 20%;
+}
+.level_li {
+  width: 10%;
+  font-weight: 600;
+}
+.count_li {
+  width: 10%;
+}
+.low {
+  color: #60a5fa;
+}
+.mid {
+  color: yellowgreen;
+}
+.hight {
+  color: #ff3d00;
+}
+.order_wrap > .reset {
+  padding: 12px 14px;
+  background-color: hsl(4, 91%, 67%);
+  color: #ffffff;
 }
